@@ -7,3 +7,13 @@ def my_each(list)
     i = i + 1
   end
 end
+
+def my_each(list)
+  i = 0 
+  combo = []
+  while i < combo.length
+    combo << yield(list[i])
+    i += 1 
+  end
+  combo
+end
