@@ -1,4 +1,4 @@
-list = ["arel", "jon", "logan", "spencer"]
+
 
 def my_each(list)
   i = 0 
@@ -8,7 +8,6 @@ def my_each(list)
   end
 end
 
-my_each(list) {|i| puts "I cant believe they screwed #{i}!"
 
 def my_each(list)
   i = 0 
