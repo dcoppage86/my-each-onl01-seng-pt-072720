@@ -6,4 +6,5 @@ def my_each(list)
     yield (list[i])
     i = i + 1
   end
+  list
 end
